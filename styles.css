@@ -1,0 +1,164 @@
+* {
+  font-weight: blod;
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  margin: 0 3%;
+}
+
+.navbar {
+  position: sticky;
+  margin-top: 0;
+  width: 100%;
+  height: 25px;
+  background-color: #f3f3f3;
+  text-align: right;
+}
+
+.content {
+  position: relative;
+  left: 7rem;
+}
+
+.nav-item {
+  position: relative;
+  top: 3px;
+  margin: 5px 15px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.lang-flag-icon {
+  position: relative;
+  top: 3px;
+}
+.log-out-img {
+  position: absolute;
+  margin-top: 2px;
+  right: 70px;
+}
+
+.hostelsxml {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  background-color: rgb(53, 44, 237);
+  color: #eee;
+  width: 17%;
+  height: 12rem;
+  line-height: 7rem;
+}
+
+.hostelsxml h1 {
+  font-size: 30px;
+  font-weight: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hostelsxml h3 {
+  position: relative;
+  bottom: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.search-partition {
+  text-align: center;
+  background-color: rgb(53, 44, 237);
+  color: #eee;
+  width: 17%;
+  height: 7rem;
+  position: absolute;
+  top: 180px;
+  margin-top: 1rem;
+}
+
+.dropdown-item {
+  height: 100/3%;
+  padding: 10px 0;
+  border-bottom: 2px solid #eee;
+}
+
+.page-title {
+  position: relative;
+  right: 3rem;
+  width: 100%;
+  font-size: 20px;
+  line-height: 2rem;
+  margin: 5rem;
+}
+
+.page-title span {
+  color: rgb(96, 113, 65);
+}
+
+.wider-header {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+.table-container {
+  position: relative;
+  background-color: rgb(243, 241, 241);
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 13rem;
+}
+
+table {
+  width: 95%;
+  position: relative;
+  background-color: rgb(173, 200, 202);
+}
+
+table,
+tr,
+td {
+  border: 3px solid #eee;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 3rem;
+}
+
+td {
+  width: 25%;
+}
+
+.third-container {
+  background-color: rgb(243, 241, 241);
+  width: 55%;
+  height: 7rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.account-details {
+  position: relative;
+  padding: 45px;
+  margin-right: 10px;
+  height: 100%;
+  padding-right: 10px;
+  width: 50%;
+}
+.orders {
+  position: relative;
+  padding: 45px;
+  height: 100%;
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 50%;
+}
+
+.account-details,
+.orders {
+  flex-basis: 48%;
+}
